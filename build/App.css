@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+}
+
+.projectHeader {
+  font-family: 'Kanit', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.Maps {
+  width: 75%;
+  height: 440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.satMap {
+  width: 45%;
+  height: 100%;
+  background-image: url(./Maps/satMap.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.outMap {
+  width: 45%;
+  height: 100%;
+  background-image: url(./Maps/outlineMap.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.887);
+  background-color: hwb(0 0% 100% / 0.887);
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  height: 100px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  gap: 10px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.formButton {
+  height: 36px;
+  width: 100px;
+  padding: 0 12px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+  background-color: #ffffff33;
+}
+
+.sourceForm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.destinationForm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sourceForm label,
+.destinationForm label {
+  margin-right: 10px;
+  min-width: 80px;
+}
+
+.sourceInput {
+  width: 140px;
+}
+
+.destinationInput {
+  width: 140px;
+}
+
+.emptyBox {
+  color: rgb(208, 208, 208);
+}
+
+.projectDisplay {
+  width: 400px;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px;
+}
+
+label {
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
