@@ -36,7 +36,7 @@ A brief description of what this project does and who it's for
 
 This project is used by the following:
 
-- Students of IIT Guwahati
+- Students of MANIT Bhopal
 
 
 ## FAQ
